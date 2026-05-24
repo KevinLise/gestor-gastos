@@ -3,7 +3,7 @@
 > Controla tus finanzas personales con conversión de divisas en tiempo real. Registra, analiza y visualiza tus gastos desde cualquier dispositivo — sin servidor, sin base de datos.
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1bf7d7ea-b8cd-4e1d-b743-ba7ff19b8471" />
-
+![GastoSmart Preview](https://gestor-gastos-five-beta.vercel.app)
 
 ---
 
