@@ -2,7 +2,8 @@
 
 > Controla tus finanzas personales con conversión de divisas en tiempo real. Registra, analiza y visualiza tus gastos desde cualquier dispositivo — sin servidor, sin base de datos.
 
-![GastoSmart Preview](https://via.placeholder.com/800x400/0a0a1a/6c63ff?text=GastoSmart+%E2%80%94+Gestor+de+Gastos)
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1bf7d7ea-b8cd-4e1d-b743-ba7ff19b8471" />
+
 
 ---
 
