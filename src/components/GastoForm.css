@@ -1,0 +1,193 @@
+/* ============================================
+   GASTO FORM
+   ============================================ */
+
+.form-page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 40px 0 64px;
+}
+
+.form-page__header {
+  margin-bottom: 32px;
+}
+
+.form-page__title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.75rem;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.form-page__subtitle {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+/* ---- Form card ---- */
+.gasto-form {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+/* ---- Field ---- */
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+}
+
+.form-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.required { color: var(--accent-pink); }
+.optional  { color: var(--text-muted); font-weight: 400; text-transform: none; font-size: 0.75rem; }
+
+/* ---- Input, select, textarea ---- */
+.form-input,
+.form-select,
+.form-textarea {
+  background: var(--bg-input);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  padding: 12px 14px;
+  transition: var(--transition);
+  width: 100%;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: var(--text-muted);
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+  border-color: var(--accent-purple);
+  box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.15);
+  background: rgba(26, 26, 62, 0.8);
+}
+
+.form-select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%239898c0' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 36px;
+  cursor: pointer;
+}
+
+.form-select option {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 88px;
+}
+
+.form-input--date {
+  color-scheme: dark;
+}
+
+/* ---- Prefix input ---- */
+.input-with-prefix {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-prefix {
+  position: absolute;
+  left: 14px;
+  color: var(--accent-green);
+  font-weight: 700;
+  font-size: 1rem;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.form-input--prefixed {
+  padding-left: 28px;
+}
+
+/* ---- Error states ---- */
+.has-error .form-input,
+.has-error .form-select,
+.has-error .form-textarea {
+  border-color: var(--accent-pink);
+}
+
+.form-error {
+  font-size: 0.75rem;
+  color: var(--accent-pink);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.form-error::before { content: '⚠'; }
+
+/* ---- Char count ---- */
+.char-count {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  text-align: right;
+  margin-top: -4px;
+}
+
+/* ---- Category preview ---- */
+.category-preview {
+  background: rgba(108, 99, 255, 0.08);
+  border: 1px solid rgba(108, 99, 255, 0.2);
+  border-radius: var(--radius);
+  padding: 10px 14px;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.category-preview strong {
+  color: var(--accent-purple);
+}
+
+/* ---- Actions ---- */
+.form-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 600px) {
+  .form-page { padding: 20px 0 48px; }
+  .gasto-form { padding: 20px 16px; }
+  .form-row { grid-template-columns: 1fr; }
+  .form-actions { flex-direction: column-reverse; }
+  .form-actions .btn { width: 100%; }
+}
