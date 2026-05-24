@@ -6,20 +6,20 @@
 
 ---
 
-## ✨ Características
+##  Características
 
 | Función | Descripción |
 |---------|-------------|
 |  **CRUD completo** | Agregar, editar, eliminar y ver historial de gastos |
 |  **Dashboard** | Estadísticas en tiempo real con gráficas interactivas |
 |  **API de Divisas** | Conversión automática COP → USD / EUR vía ExchangeRate API |
-| 💾 **Persistencia** | Datos guardados en `localStorage` (sin backend) |
-| 📱 **Responsive** | Diseño adaptable a móvil, tablet y desktop |
-| 🔍 **Filtros** | Búsqueda por nombre, categoría, mes y orden |
+|  **Persistencia** | Datos guardados en `localStorage` (sin backend) |
+|  **Responsive** | Diseño adaptable a móvil, tablet y desktop |
+|  **Filtros** | Búsqueda por nombre, categoría, mes y orden |
 
 ---
 
-## 🛠 Stack Tecnológico
+##  Stack Tecnológico
 
 ```
 React 18          → UI reactiva con hooks y context
@@ -151,7 +151,7 @@ gestor-gastos/
 
 ---
 
-## 📦 Categorías de Gastos
+##  Categorías de Gastos
 
 | Categoría | Emoji | Color |
 |-----------|-------|-------|
@@ -229,5 +229,5 @@ MIT License — libre para uso personal y comercial.
 ---
 
 <p align="center">
-  Hecho con ❤️ usando React + Vite + Chart.js
+  Hecho con  usando React + Vite + Chart.js
 </p>
