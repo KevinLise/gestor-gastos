@@ -110,7 +110,7 @@ Las tasas se cachean en `localStorage` durante **6 horas** para respetar los lí
 
 ---
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 gestor-gastos/
@@ -164,7 +164,7 @@ gestor-gastos/
 
 ---
 
-## 🚢 Deploy en Vercel — Paso a Paso
+##  Deploy en Vercel — Paso a Paso
 
 ### Opción A: desde GitHub (recomendada)
 
