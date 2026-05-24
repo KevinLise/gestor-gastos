@@ -9,7 +9,7 @@ import './Navbar.css'
 
 const NAV_ITEMS = [
   { view: VIEWS.DASHBOARD, label: 'Dashboard', icon: '' },
-  { view: VIEWS.AGREGAR,   label: 'Agregar',   icon: '➕' },
+  { view: VIEWS.AGREGAR,   label: 'Agregar',   icon: '' },
   { view: VIEWS.HISTORIAL, label: 'Historial', icon: '' },
   { view: VIEWS.DIVISAS,   label: 'Divisas',   icon: '' },
 ]

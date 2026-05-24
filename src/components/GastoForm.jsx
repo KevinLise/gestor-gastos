@@ -99,7 +99,7 @@ export default function GastoForm() {
     <div className="form-page animate-fadeInUp">
       <div className="form-page__header">
         <h2 className="form-page__title">
-          {isEditing ? ' Editar Gasto' : '➕ Agregar Gasto'}
+          {isEditing ? ' Editar Gasto' : ' Agregar Gasto'}
         </h2>
         <p className="form-page__subtitle">
           {isEditing

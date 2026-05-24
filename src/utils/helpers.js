@@ -122,7 +122,7 @@ export function getCategoriaColor(id) {
  * Emoji de categoría
  */
 export function getCategoriaEmoji(id) {
-  return CATEGORIA_MAP[id]?.emoji || '📦'
+  return CATEGORIA_MAP[id]?.emoji || ''
 }
 
 /**

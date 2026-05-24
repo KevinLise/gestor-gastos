@@ -54,7 +54,7 @@ export default function Divisas() {
       )}
       {error && (
         <div className="api-banner api-banner--error">
-          ⚠️ Error al obtener tasas: {error}
+           Error al obtener tasas: {error}
           <button className="btn btn--ghost btn--sm" onClick={refetch}>Reintentar</button>
         </div>
       )}

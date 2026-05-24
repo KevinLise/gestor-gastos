@@ -17,7 +17,7 @@ export const CATEGORIA_MAP = Object.fromEntries(
 
 // ExchangeRate API — clave gratuita demo
 // Para producción, obtén tu key gratis en https://www.exchangerate-api.com
-export const EXCHANGE_API_KEY = 'a0cbc41d64ca07c1e59c67cc'
+export const EXCHANGE_API_KEY = 'e5306abf1d2f9635e79811f5'
 export const EXCHANGE_API_URL = `https://v6.exchangerate-api.com/v6/${EXCHANGE_API_KEY}/latest/COP`
 
 export const DIVISAS_TARGET = ['USD', 'EUR']
